@@ -1,4 +1,3 @@
-```markdown
 # YouTube Fullscreen Scrollbar Fix (Combined Approach)
 
 This is a Tampermonkey script designed to fix the horizontal scrollbar issue that appears when viewing YouTube videos in fullscreen mode. The script works by injecting custom CSS and applying JavaScript to manage the overflow of key elements during fullscreen playback, ensuring that no horizontal scrollbar appears, providing a cleaner and more immersive viewing experience.
@@ -122,7 +121,7 @@ observer.observe(document.documentElement, { attributes: true, subtree: true });
 
 ## License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for more information.
 
 ## Changelog
 
@@ -133,13 +132,3 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 Feel free to open an issue or pull request if you encounter any bugs or want to contribute to the project!
 ```
-
-### Explanation of the `README.md`:
-
-- **Installation**: This section explains how to install the script and the requirements (Tampermonkey).
-- **How It Works**: Provides a high-level explanation of the functionality of the script (fixing the horizontal scrollbar in fullscreen mode).
-- **Code Explanation**: A detailed breakdown of the key parts of the code (Injected CSS, enforcing the overflow style, event listeners, and the MutationObserver).
-- **License**: This section specifies the MIT license and provides a link to the `LICENSE` file in the repository.
-- **Changelog**: Tracks version changes and provides a brief description of each release.
-
-This README gives users a clear understanding of the purpose, installation process, and internal workings of the script while also being structured and easy to follow.

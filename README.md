@@ -131,4 +131,3 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
 ---
 
 Feel free to open an issue or pull request if you encounter any bugs or want to contribute to the project!
-```

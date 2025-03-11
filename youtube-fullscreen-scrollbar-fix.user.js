@@ -3,7 +3,6 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.2
 // @description  Remove the horizontal scrollbar in YouTube fullscreen mode by injecting CSS and enforcing hidden overflow on key elements.
-// @author       ChatGPT
 // @match        https://www.youtube.com/*
 // @grant        none
 // ==/UserScript==

@@ -23,7 +23,7 @@ This is a Tampermonkey script designed to fix the horizontal scrollbar issue tha
    - Go to [Tampermonkey's official website](https://www.tampermonkey.net/) and install it in your browser (available for Chrome, Firefox, Edge, Safari, and Opera).
    
 2. **Install the Script**:
-   - Go to the [Tampermonkey Scripts page](https://github.com/your-username/your-repository-name/raw/main/youtube-fullscreen-scrollbar-fix.user.js) (replace `your-username` and `your-repository-name` with your actual GitHub username and repository name).
+   - Go to the [Tampermonkey Scripts page](https://github.com/IsraelSGarcia/youtube-fullscreen-scrollbar-fix/raw/main/youtube-fullscreen-scrollbar-fix.user.js)
    - Click the link, and Tampermonkey will prompt you to install the script.
    - Alternatively, you can copy and paste the code into a new script in Tampermonkey.
 
@@ -125,7 +125,7 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
 
 ## Changelog
 
-### Version 1.2
+### Version 1.0
 - Initial release of the script that fixes the horizontal scrollbar issue in YouTube fullscreen mode.
 
 ---

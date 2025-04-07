@@ -1,4 +1,4 @@
-# YouTube Fullscreen Scrollbar Fix (Combined Approach)
+# YouTube Fullscreen Scrollbar Fix
 
 This is a Tampermonkey script designed to fix the horizontal scrollbar issue that appears when viewing YouTube videos in fullscreen mode. The script works by injecting custom CSS and applying JavaScript to manage the overflow of key elements during fullscreen playback, ensuring that no horizontal scrollbar appears, providing a cleaner and more immersive viewing experience.
 

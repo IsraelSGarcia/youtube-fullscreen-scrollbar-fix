@@ -1,8 +1,9 @@
 // ==UserScript==
-// @name         YouTube Fullscreen Scrollbar Fix (Combined Approach)
+// @name         YouTube Fullscreen Scrollbar Fix
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      2.0
 // @description  Remove the horizontal scrollbar in YouTube fullscreen mode by injecting CSS and enforcing hidden overflow on key elements.
+// @author       ChatGPT
 // @match        https://www.youtube.com/*
 // @grant        none
 // ==/UserScript==
@@ -23,7 +24,7 @@
     `;
     const style = document.createElement('style');
     style.type = 'text/css';
-    style.innerHTML = css;
+    style.textContent = css;
     document.head.appendChild(style);
 
     // Function to enforce the overflow style on the element currently in fullscreen.

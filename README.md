@@ -123,11 +123,6 @@ observer.observe(document.documentElement, { attributes: true, subtree: true });
 
 This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for more information.
 
-## Changelog
-
-### Version 1.0
-- Initial release of the script that fixes the horizontal scrollbar issue in YouTube fullscreen mode.
-
 ---
 
 Feel free to open an issue or pull request if you encounter any bugs or want to contribute to the project!
